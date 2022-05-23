@@ -2,9 +2,10 @@
   "name": "coreproject",
   "version": "1.0.0",
   "description": "Core Project",
-  "main": "index.js",
+  "main": "../CoreProject/src/backend/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "start": "node ./src/backend/server"
   },
   "author": "",
   "license": "ISC",

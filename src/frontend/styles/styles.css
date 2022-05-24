@@ -9,11 +9,6 @@ body {
   padding: 0;
 }
 
-.container {
-  max-width: 1400px;
-  margin: 0 auto;
-}
-
 .header {
   position: absolute;
   width: 1440px;
@@ -23,7 +18,6 @@ body {
   background-color: #403C3B;
   box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
 }
-
 .header__logo {
   position: absolute;
   width: 100px;
@@ -45,7 +39,6 @@ body {
   left: 268px;
   top: 23px;
   background-color: #504B4A;
-  color: #FFFFFF;
   border: none;
   border-radius: 10px;
   padding-right: 51px;
@@ -71,14 +64,99 @@ body {
   left: 770px;
   top: 39px;
 }
-.header__lists {
+.header__line_basket {
+  position: absolute;
+  left: 1266px;
+  top: 27px;
+}
+.header__basket {
+  position: absolute;
+  left: 1279px;
+  top: 38px;
+}
+.header__basket_4 {
+  position: absolute;
+  left: 1287px;
+  top: 45px;
+}
+
+.nav__lists {
   position: absolute;
   left: 770px;
-  top: 15px;
-  list-style-type: none;
+  top: 13px;
+  list-style: none;
 }
-.header__list {
-  color: #FFFFFF;
+.nav__list {
+  display: inline-block;
+  color: #CFCFCF;
+  font-family: sans-serif;
   font-size: 12px;
   line-height: 20px;
+  font-weight: 400;
+}
+.nav__link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+}
+.nav__basket {
+  position: absolute;
+  top: -5px;
+  left: 400px;
+  border: 1px solid #618967;
+  border-radius: 10px;
+  width: 149px;
+  height: 52px;
+  background-color: #618967;
+}
+.nav__basket_link {
+  position: absolute;
+  top: 14px;
+  left: 13px;
+}
+
+.container {
+  margin-top: 99px;
+  background-image: url(../img/banner.png);
+  height: 620px;
+  width: 1440px;
+}
+.container__bc_gradient {
+  position: absolute;
+  width: 1102px;
+  height: 620px;
+  left: -2px;
+  top: 99px;
+  background: linear-gradient(90deg, #211F20 0%, rgba(68, 64, 63, 0) 100%);
+}
+.container__text_1 {
+  position: absolute;
+  left: 90px;
+  top: 252px;
+}
+.container__text_2 {
+  position: absolute;
+  left: 85px;
+  top: 257px;
+}
+.container__text_3 {
+  position: absolute;
+  left: 310px;
+  top: 457px;
+  z-index: 3;
+}
+.container__text_3_border_green {
+  position: absolute;
+  left: 290px;
+  top: 450px;
+  z-index: 2;
+}
+.container__text_3_border {
+  position: absolute;
+  left: 281px;
+  top: 465px;
+  z-index: 1;
 }/*# sourceMappingURL=styles.css.map */

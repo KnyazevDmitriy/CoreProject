@@ -7,18 +7,7 @@
 
     background-color: $color-darkbrown;
     box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
-}
 
-// .navigation {
-//     &__link {
-//         background-color: $color-black;
-
-//         &:hover {
-//             color: $color-black;
-//         }
-//     }
-// }
-.header {
     &__logo {
         position: absolute;
         width: 100px;
@@ -46,7 +35,6 @@
         top: 23px;
 
         background-color: $color-lightbrown;
-        color: $color-white;
 
         border: none;
         border-radius: 10px;
@@ -78,21 +66,126 @@
         top: 39px;
     }
 
+    &__line_basket {
+        position: absolute;
+        left: 1266px;
+        top: 27px;
+    }
+
+    &__basket {
+        position: absolute;
+        left: 1279px;
+        top: 38px;
+    }
+
+    &__basket_4 {
+        position: absolute;
+        left: 1287px;
+        top: 45px;
+    }
+}
+
+.nav {
     &__lists {
         position: absolute;
         left: 770px;
-        top: 15px;
+        top: 13px;
 
-        list-style-type: none;
+        list-style: none;
     }
 
     &__list {
-        color: $color-white;
+        display: inline-block;
+
+        color: $color-gray;
+        font-family: sans-serif;
         font-size: 12px;
         line-height: 20px;
+        font-weight: 400;
+        
     }
 
     &__link {
+        color: $color-white;
+        text-decoration: none;
+
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        font-style: normal;
+    }
+
+    &__basket {
+        position: absolute;
+        top: -5px;
+        left: 400px;
+
+        border: 1px solid #618967;
+        border-radius: 10px;
+
+        width: 149px;
+        height: 52px;
+
+        background-color: $color-green;
+    }
+
+    &__basket_link {
+        position: absolute;
+        top: 14px;
+        left: 13px;
+    }
+}
+
+.container {
+    margin-top: 99px;
+    background-image: url(../img/banner.png);
+    height: 620px;
+    width: 1440px;
+
+    &__bc_gradient {
+        position: absolute;
+        width: 1102px;
+        height: 620px;
+        left: -2px;
+        top: 99px;
         
+        background: linear-gradient(90deg, #211F20 0%, rgba(68, 64, 63, 0) 100%);
+    }
+    
+
+    &__text_1 {
+        position: absolute;
+        left: 90px;
+        top: 252px;
+    }
+
+    &__text_2 {
+        position: absolute;
+        left: 85px;
+        top: 257px;
+    }
+
+    &__text_3 {
+        position: absolute;
+        left: 310px;
+        top: 457px;
+
+        z-index: 3;
+    }
+
+    &__text_3_border_green {
+        position: absolute;
+        left: 290px;
+        top: 450px;
+
+        z-index: 2;
+    }
+
+    &__text_3_border {
+        position: absolute;
+        left: 281px;
+        top: 465px;
+
+        z-index: 1;
     }
 }

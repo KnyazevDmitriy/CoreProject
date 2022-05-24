@@ -1,7 +1,98 @@
 .header {
-    width: 100vw;
-    height: auto;
-    padding: 3rem;
+    position: absolute;
+    width: 1440px;
+    height: 99px;
+    left: -2px;
+    top: 0px;
 
-    background-color: $color-blue;
+    background-color: $color-darkbrown;
+    box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
+}
+
+// .navigation {
+//     &__link {
+//         background-color: $color-black;
+
+//         &:hover {
+//             color: $color-black;
+//         }
+//     }
+// }
+.header {
+    &__logo {
+        position: absolute;
+        width: 100px;
+        height: 25px;
+        left: 96px;
+        top: 15px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 25px;
+
+        color: $color-white;
+
+        letter-spacing: 0.15em;
+    }
+
+    &__input {
+        position: absolute;
+
+        width: 453px;
+        height: 52px;
+        left: 268px;
+        top: 23px;
+
+        background-color: $color-lightbrown;
+        color: $color-white;
+
+        border: none;
+        border-radius: 10px;
+        padding-right: 51px;
+        padding-left: 51px;
+    }
+
+    &__location {
+        position: absolute;
+        left: 283px;
+        top: 36px;
+    }
+    
+    &__search {
+        position: absolute;
+        left: 682px;
+        top: 36px;
+    }
+
+    &__back_calling {
+        position: absolute;
+        left: 763px;
+        top: 31px;
+    }
+
+    &__calling {
+        position: absolute;
+        left: 770px;
+        top: 39px;
+    }
+
+    &__lists {
+        position: absolute;
+        left: 770px;
+        top: 15px;
+
+        list-style-type: none;
+    }
+
+    &__list {
+        color: $color-white;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    &__link {
+        
+    }
 }

@@ -1,19 +1,20 @@
 .header {
-    position: absolute;
+    position: relative;
     width: 1440px;
     height: 99px;
-    left: -2px;
-    top: 0px;
+    margin-top: -10px;
+    // left: -2px;
+    top: -15px;
 
     background-color: $color-darkbrown;
     box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
 
     &__logo {
-        position: absolute;
+        position: relative;
         width: 100px;
         height: 25px;
         left: 96px;
-        top: 15px;
+        top: 35px;
 
         font-family: sans-serif;
         font-style: normal;
@@ -137,7 +138,9 @@
 }
 
 .container {
-    margin-top: 99px;
+    position: relative;
+
+    margin-top: 74px;
     background-image: url(../img/banner.png);
     height: 620px;
     width: 1440px;
@@ -147,7 +150,6 @@
         width: 1102px;
         height: 620px;
         left: -2px;
-        top: 99px;
         
         background: linear-gradient(90deg, #211F20 0%, rgba(68, 64, 63, 0) 100%);
     }
@@ -156,19 +158,19 @@
     &__text_1 {
         position: absolute;
         left: 90px;
-        top: 252px;
+        top: 160px;
     }
 
     &__text_2 {
         position: absolute;
         left: 85px;
-        top: 257px;
+        top: 165px;
     }
 
     &__text_3 {
         position: absolute;
         left: 310px;
-        top: 457px;
+        top: 365px;
 
         z-index: 3;
     }
@@ -176,7 +178,7 @@
     &__text_3_border_green {
         position: absolute;
         left: 290px;
-        top: 450px;
+        top: 360px;
 
         z-index: 2;
     }
@@ -184,8 +186,46 @@
     &__text_3_border {
         position: absolute;
         left: 281px;
-        top: 465px;
+        top: 373px;
 
         z-index: 1;
+    }
+}
+
+.navigation {
+    position: relative;
+    top: -16px;
+
+    background-color: $color-darkbrown;
+
+    border-bottom: 0.5px solid white;
+
+    &__lists {
+        list-style: none;
+        padding: 30px 0px 20px 0px;
+        text-align: center;
+    }
+
+    &__list {
+        display: inline-block;
+
+        margin-right: 30px;
+    }
+
+    &__link {
+        color: $color-gray;
+
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+
+        text-decoration: none;
+
+        transition: color .5s;
+    }
+
+    &__link:hover {
+        color: $color-white;        border-bottom: 2px solid #618967;
+        padding-bottom: 35px;
     }
 }

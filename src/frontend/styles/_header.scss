@@ -153,17 +153,15 @@
     
     &__text_1 {
         position: absolute;
-        left: 90px;
-        top: 150px;
-        right: 750px;
-
-        font-family: 'Zing Rust';
+        left: 46px;
+        top: 164px;
+        right: 710px;
+        font-family: "Zing Rust";
         font-weight: 400;
-        font-size: 67px;
+        font-size: 65px;
         line-height: 109.2%;
         transform: rotate(-8.37deg);
-        color: $color-white;
-
+        color: #FFFFFF;
         text-align: center;
 
     }
@@ -209,8 +207,6 @@
     top: -16px;
 
     background-color: $color-darkbrown;
-
-    border-bottom: 0.5px solid white;
 
     &__lists {
         list-style: none;

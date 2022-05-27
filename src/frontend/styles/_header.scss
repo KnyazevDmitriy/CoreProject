@@ -1,7 +1,243 @@
 .header {
-    width: 100vw;
-    height: auto;
-    padding: 3rem;
+    width: 1440px;
+    height: 99px;
+    margin-top: -25px;
 
-    background-color: $color-blue;
+    background-color: $color-darkbrown;
+    box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
+
+    &__logo {
+        position: relative;
+        width: 100px;
+        height: 25px;
+        left: 96px;
+        top: 35px;
+
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 25px;
+
+        color: $color-white;
+
+        letter-spacing: 0.15em;
+    }
+
+    &__input {
+        position: relative;
+
+        width: 453px;
+        height: 52px;
+        left: 268px;
+        top: -25px;
+
+        background-color: $color-lightbrown;
+
+        border: none;
+        border-radius: 10px;
+        padding-right: 51px;
+        padding-left: 51px;
+    }
+
+    &__location {
+        position: absolute;
+        left: 283px;
+        top: 36px;
+    }
+    
+    &__search {
+        position: absolute;
+        left: 682px;
+        top: 36px;
+    }
+
+    &__back_calling {
+        position: absolute;
+        left: 763px;
+        top: 31px;
+    }
+
+    &__calling {
+        position: absolute;
+        left: 770px;
+        top: 39px;
+    }
+
+    &__line_basket {
+        position: absolute;
+        left: 1266px;
+        top: 27px;
+    }
+
+    &__basket {
+        position: absolute;
+        left: 1279px;
+        top: 38px;
+    }
+
+    &__basket_4 {
+        position: absolute;
+        left: 1287px;
+        top: 45px;
+    }
+}
+
+.contacts {
+    &__lists {
+        position: absolute;
+        left: 770px;
+        top: 13px;
+
+        list-style: none;
+    }
+
+    &__list {
+        display: inline-block;
+
+        color: $color-gray;
+        font-family: sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 400;
+        
+    }
+
+    &__link {
+        color: $color-white;
+        text-decoration: none;
+
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        font-style: normal;
+    }
+
+    &__basket {
+        position: absolute;
+        top: -5px;
+        left: 400px;
+
+        border: 1px solid #618967;
+        border-radius: 10px;
+
+        width: 149px;
+        height: 52px;
+
+        background-color: $color-green;
+    }
+
+    &__basket_link {
+        position: absolute;
+        top: 14px;
+        left: 13px;
+    }
+}
+
+.container {
+    position: relative;
+
+    margin-top: -3px;
+    background-image: url(../img/banner.png);
+    height: 620px;
+    width: 1440px;
+
+    &__bc_gradient {
+        position: absolute;
+        width: 1102px;
+        height: 620px;
+        left: -2px;
+        
+        background: linear-gradient(90deg, #211F20 0%, rgba(68, 64, 63, 0) 100%);
+    }
+    
+    &__text_1 {
+        position: absolute;
+        left: 90px;
+        top: 150px;
+        right: 750px;
+
+        font-family: 'Zing Rust';
+        font-weight: 400;
+        font-size: 67px;
+        line-height: 109.2%;
+        transform: rotate(-8.37deg);
+        color: $color-white;
+
+        text-align: center;
+
+    }
+
+    &__text_2 {
+        position: absolute;
+        left: 110px;
+        top: 355px;
+        right: 750px;
+
+        font-family: 'Zing Rust';
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 109.2%;
+        transform: rotate(-8.37deg);
+        
+        color: $color-white;
+
+        text-align: center;
+        
+        z-index: 3;
+    }
+
+    &__text_3_border_green {
+        position: absolute;
+        left: 290px;
+        top: 360px;
+
+        z-index: 2;
+    }
+
+    &__text_3_border {
+        position: absolute;
+        left: 281px;
+        top: 373px;
+
+        z-index: 1;
+    }
+}
+
+.navigation {
+    position: relative;
+    top: -16px;
+
+    background-color: $color-darkbrown;
+
+    border-bottom: 0.5px solid white;
+
+    &__lists {
+        list-style: none;
+        padding: 30px 0px 20px 0px;
+        text-align: center;
+    }
+
+    &__list {
+        display: inline-block;
+
+        margin-right: 30px;
+    }
+
+    &__link {
+        color: $color-gray;
+
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+
+        text-decoration: none;
+
+        transition: color .5s;
+    }
+
+    &__link:hover {
+        color: $color-white;        border-bottom: 3.5px solid #618967;
+        padding-bottom: 34px;
+    }
 }

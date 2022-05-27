@@ -9,14 +9,199 @@ body {
   padding: 0;
 }
 
-.container {
-  max-width: 1400px;
-  margin: 0 auto;
+.header {
+  width: 1440px;
+  height: 99px;
+  margin-top: -25px;
+  background-color: #403C3B;
+  box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
+}
+.header__logo {
+  position: relative;
+  width: 100px;
+  height: 25px;
+  left: 96px;
+  top: 35px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  color: #FFFFFF;
+  letter-spacing: 0.15em;
+}
+.header__input {
+  position: relative;
+  width: 453px;
+  height: 52px;
+  left: 268px;
+  top: -25px;
+  background-color: #504B4A;
+  border: none;
+  border-radius: 10px;
+  padding-right: 51px;
+  padding-left: 51px;
+}
+.header__location {
+  position: absolute;
+  left: 283px;
+  top: 36px;
+}
+.header__search {
+  position: absolute;
+  left: 682px;
+  top: 36px;
+}
+.header__back_calling {
+  position: absolute;
+  left: 763px;
+  top: 31px;
+}
+.header__calling {
+  position: absolute;
+  left: 770px;
+  top: 39px;
+}
+.header__line_basket {
+  position: absolute;
+  left: 1266px;
+  top: 27px;
+}
+.header__basket {
+  position: absolute;
+  left: 1279px;
+  top: 38px;
+}
+.header__basket_4 {
+  position: absolute;
+  left: 1287px;
+  top: 45px;
 }
 
-.header {
-  width: 100vw;
-  height: auto;
-  padding: 3rem;
-  background-color: #2575bb;
+.contacts__lists {
+  position: absolute;
+  left: 770px;
+  top: 13px;
+  list-style: none;
+}
+.contacts__list {
+  display: inline-block;
+  color: #CFCFCF;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.contacts__link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+}
+.contacts__basket {
+  position: absolute;
+  top: -5px;
+  left: 400px;
+  border: 1px solid #618967;
+  border-radius: 10px;
+  width: 149px;
+  height: 52px;
+  background-color: #618967;
+}
+.contacts__basket_link {
+  position: absolute;
+  top: 14px;
+  left: 13px;
+}
+
+.container {
+  position: relative;
+  margin-top: -3px;
+  background-image: url(../img/banner.png);
+  height: 620px;
+  width: 1440px;
+}
+.container__bc_gradient {
+  position: absolute;
+  width: 1102px;
+  height: 620px;
+  left: -2px;
+  background: linear-gradient(90deg, #211F20 0%, rgba(68, 64, 63, 0) 100%);
+}
+.container__text_1 {
+  position: absolute;
+  left: 90px;
+  top: 150px;
+  right: 750px;
+  font-family: "Zing Rust";
+  font-weight: 400;
+  font-size: 67px;
+  line-height: 109.2%;
+  transform: rotate(-8.37deg);
+  color: #FFFFFF;
+  text-align: center;
+}
+.container__text_2 {
+  position: absolute;
+  left: 110px;
+  top: 355px;
+  right: 750px;
+  font-family: "Zing Rust";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 109.2%;
+  transform: rotate(-8.37deg);
+  color: #FFFFFF;
+  text-align: center;
+  z-index: 3;
+}
+.container__text_3_border_green {
+  position: absolute;
+  left: 290px;
+  top: 360px;
+  z-index: 2;
+}
+.container__text_3_border {
+  position: absolute;
+  left: 281px;
+  top: 373px;
+  z-index: 1;
+}
+
+.navigation {
+  position: relative;
+  top: -16px;
+  background-color: #403C3B;
+  border-bottom: 0.5px solid white;
+}
+.navigation__lists {
+  list-style: none;
+  padding: 30px 0px 20px 0px;
+  text-align: center;
+}
+.navigation__list {
+  display: inline-block;
+  margin-right: 30px;
+}
+.navigation__link {
+  color: #CFCFCF;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.navigation__link:hover {
+  color: #FFFFFF;
+  border-bottom: 3.5px solid #618967;
+  padding-bottom: 34px;
+}
+
+@font-face {
+  font-family: "Zing Rust";
+  src: url(../fonts/FontsFree-Net-ZingRustDemo-Base.otf);
+  font-style: normal;
+  font-weight: normal;
 }/*# sourceMappingURL=styles.css.map */

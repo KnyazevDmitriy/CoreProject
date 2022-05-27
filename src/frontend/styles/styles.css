@@ -10,11 +10,9 @@ body {
 }
 
 .header {
-  position: relative;
   width: 1440px;
   height: 99px;
-  margin-top: -10px;
-  top: -15px;
+  margin-top: -25px;
   background-color: #403C3B;
   box-shadow: 0px 30px 60px rgba(34, 31, 32, 0.2);
 }
@@ -33,11 +31,11 @@ body {
   letter-spacing: 0.15em;
 }
 .header__input {
-  position: absolute;
+  position: relative;
   width: 453px;
   height: 52px;
   left: 268px;
-  top: 23px;
+  top: -25px;
   background-color: #504B4A;
   border: none;
   border-radius: 10px;
@@ -80,13 +78,13 @@ body {
   top: 45px;
 }
 
-.nav__lists {
+.contacts__lists {
   position: absolute;
   left: 770px;
   top: 13px;
   list-style: none;
 }
-.nav__list {
+.contacts__list {
   display: inline-block;
   color: #CFCFCF;
   font-family: sans-serif;
@@ -94,7 +92,7 @@ body {
   line-height: 20px;
   font-weight: 400;
 }
-.nav__link {
+.contacts__link {
   color: #FFFFFF;
   text-decoration: none;
   font-weight: 700;
@@ -102,7 +100,7 @@ body {
   line-height: 20px;
   font-style: normal;
 }
-.nav__basket {
+.contacts__basket {
   position: absolute;
   top: -5px;
   left: 400px;
@@ -112,7 +110,7 @@ body {
   height: 52px;
   background-color: #618967;
 }
-.nav__basket_link {
+.contacts__basket_link {
   position: absolute;
   top: 14px;
   left: 13px;
@@ -120,7 +118,7 @@ body {
 
 .container {
   position: relative;
-  margin-top: 74px;
+  margin-top: -3px;
   background-image: url(../img/banner.png);
   height: 620px;
   width: 1440px;
@@ -135,17 +133,28 @@ body {
 .container__text_1 {
   position: absolute;
   left: 90px;
-  top: 160px;
+  top: 150px;
+  right: 750px;
+  font-family: "Zing Rust";
+  font-weight: 400;
+  font-size: 67px;
+  line-height: 109.2%;
+  transform: rotate(-8.37deg);
+  color: #FFFFFF;
+  text-align: center;
 }
 .container__text_2 {
   position: absolute;
-  left: 85px;
-  top: 165px;
-}
-.container__text_3 {
-  position: absolute;
-  left: 310px;
-  top: 365px;
+  left: 110px;
+  top: 355px;
+  right: 750px;
+  font-family: "Zing Rust";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 109.2%;
+  transform: rotate(-8.37deg);
+  color: #FFFFFF;
+  text-align: center;
   z-index: 3;
 }
 .container__text_3_border_green {
@@ -185,20 +194,4 @@ body {
 }
 .navigation__link:hover {
   color: #FFFFFF;
-  border-bottom: 2px solid #618967;
-  padding-bottom: 35px;
-}
-
-.section_1 {
-  background-color: #403C3B;
-  margin-top: 676px;
-  border-top: 0.5px solid white;
-  border-bottom: 0.5px solid white;
-}
-.section_1__title {
-  color: #FFFFFF;
-  border-left: 2px solid #618967;
-  padding-left: 20px;
-  margin-left: 50px;
-  font-family: "";
 }/*# sourceMappingURL=styles.css.map */

@@ -4,7 +4,6 @@
   "description": "Core Project",
   "main": "../CoreProject/src/backend/server.js",
   "scripts": {
-
     "start": "node ./src/backend/server"
   },
   "author": "",

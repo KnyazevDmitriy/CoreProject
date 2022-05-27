@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Zing Rust";
+  src: url("../fonts/FontsFree-Net-ZingRustDemo-Base.otf");
+  font-style: normal;
+  font-weight: normal;
+}
 * {
   box-sizing: border-box;
 }
@@ -132,12 +138,12 @@ body {
 }
 .container__text_1 {
   position: absolute;
-  left: 90px;
-  top: 150px;
-  right: 750px;
+  left: 46px;
+  top: 164px;
+  right: 710px;
   font-family: "Zing Rust";
   font-weight: 400;
-  font-size: 67px;
+  font-size: 65px;
   line-height: 109.2%;
   transform: rotate(-8.37deg);
   color: #FFFFFF;
@@ -174,7 +180,6 @@ body {
   position: relative;
   top: -16px;
   background-color: #403C3B;
-  border-bottom: 0.5px solid white;
 }
 .navigation__lists {
   list-style: none;
@@ -197,4 +202,27 @@ body {
   color: #FFFFFF;
   border-bottom: 3.5px solid #618967;
   padding-bottom: 34px;
+}
+
+.section_1 {
+  background-color: #403C3B;
+  margin-top: 691px;
+  border-top: 0.5px solid #CFCFCF;
+  border-bottom: 0.5px solid #CFCFCF;
+}
+.section_1__title {
+  color: #FFFFFF;
+  border-left: 4px solid #618967;
+  padding-left: 20px;
+  margin: 50px 0px 50px 70px;
+  font-size: 35px;
+}
+.section_1__menu {
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 55px;
+}
+.section_1__menu .headline {
+  margin-top: -40px;
+  padding-left: 15px;
 }/*# sourceMappingURL=styles.css.map */

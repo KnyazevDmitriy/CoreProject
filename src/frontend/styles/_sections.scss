@@ -365,6 +365,7 @@
                     font-weight: 400;
                     font-size: 16px;
                     color: $color-gray;
+                    margin-left: 30px;
                     
                     .text {
                         color: $color-white;
@@ -376,9 +377,51 @@
 
                 .before1:before {
                     content: url(../img/Location_cont.svg);
+                    position: absolute;
+                    left: 0px;
+                }
+
+                .before2:before {
+                    content: url(../img/Message.svg);
+                    position: absolute;
+                    left: 0px;
                 }
             }
 
+            .btn {
+                position: absolute;
+                top: 320px;
+                left: 30px;
+
+                border: none;
+                border-radius: 10px;
+                padding: 20px 40px;
+
+                background-color: $color-green;
+                color: $color-white;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 16px;
+            }
+
+            .text-call {
+                position: absolute;
+                top: 315px;
+                right: 30px;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 15px;
+                color: $color-gray;
+
+
+                .call {
+                    text-decoration: none;
+                    color: $color-white;
+                    font-weight: 700;
+                    font-size: 23px;
+                    line-height: 28px;
+                }
+            }
         }
 
         .circle {
@@ -406,8 +449,6 @@
             position: absolute;
             top: 455px;
             right: 350px;
-            width: 0;
-            height: 0;
             border-left: 20px solid transparent;
             border-right: 20px solid transparent;
             border-top: 35px solid #72A479;

@@ -1,5 +1,5 @@
 .section_1 {
-    width: 1440px;
+    width: 100%;
     padding-bottom: 50px;
     margin-top: 691px;
 
@@ -29,7 +29,7 @@
 
         margin-left: 25px;
         height: 425px;
-        width: 325px;
+        width: auto;
 
 
         border-radius: 10px;
@@ -115,7 +115,6 @@
 }
 
 .section_3 {
-    width: 1440px;
     background-color: $color-darkbrown;
 
 
@@ -320,11 +319,12 @@
 
     &__contacts {
         position: relative;
-        top: -150px;
         background-image: url(../img/mapp.jpg);
-        width: 1440px;
-        height: 665px;
-
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 21rem;
+        height: auto;
+        margin-top: -80px;
         z-index: 1;
 
         &__container {

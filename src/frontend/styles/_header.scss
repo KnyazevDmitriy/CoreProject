@@ -153,17 +153,15 @@
     
     &__text_1 {
         position: absolute;
-        left: 90px;
-        top: 150px;
-        right: 750px;
-
-        font-family: 'Zing Rust';
+        left: 46px;
+        top: 164px;
+        right: 710px;
+        font-family: "Zing Rust";
         font-weight: 400;
-        font-size: 67px;
+        font-size: 65px;
         line-height: 109.2%;
         transform: rotate(-8.37deg);
-        color: $color-white;
-
+        color: #FFFFFF;
         text-align: center;
 
     }
@@ -210,8 +208,6 @@
 
     background-color: $color-darkbrown;
 
-    border-bottom: 0.5px solid white;
-
     &__lists {
         list-style: none;
         padding: 30px 0px 20px 0px;
@@ -238,6 +234,6 @@
 
     &__link:hover {
         color: $color-white;        border-bottom: 3.5px solid #618967;
-        padding-bottom: 34px;
+        // padding-bottom: 9px;
     }
 }

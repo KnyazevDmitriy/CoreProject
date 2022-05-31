@@ -181,6 +181,7 @@ body {
   position: relative;
   top: -16px;
   background-color: #403C3B;
+  border-bottom: 0.5px solid #CFCFCF;
 }
 .navigation__lists {
   list-style: none;
@@ -202,7 +203,7 @@ body {
 .navigation__link:hover {
   color: #FFFFFF;
   border-bottom: 3.5px solid #618967;
-  padding-bottom: 19px;
+  padding-bottom: 35px;
 }
 
 main {
